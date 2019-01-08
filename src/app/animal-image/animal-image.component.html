@@ -1,0 +1,16 @@
+<p>
+  
+    "animal-image" works!
+    <br>        
+    number of entries in animalImage array: {{ getAnimalImage().length }}
+    <br>
+    <li *ngFor="let animalImage of getAnimalImage()" > 
+        {{ animalImage.id }}
+        <br>
+        {{ animalImage.animalId }}
+        <br>
+        {{ animalImage.imageId}}
+
+    </li>
+      
+</p>

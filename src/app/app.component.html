@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class = "col-xs-12">
+            <h3>I'm here, in images admin!</h3>
+            <hr>
+            <app-images></app-images>
+            <hr>
+            <app-animals></app-animals>
+            <hr>
+            <app-animal-image></app-animal-image>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Image</h2>
+            <form action="http://10.0.1.14/src/app/imageDescription.php?imageId=$imageId">
+                Image #:
+                <input type="number" name="imageId" value="1">
+                <input type="submit" value="Select">
+            </form>
+        </div>
+    </div>
+</div>

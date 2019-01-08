@@ -1,0 +1,17 @@
+<p>
+  
+  "animals" works!
+  <br>
+  number of entries in animal array: {{ getAnimals().length }}
+  <br>
+    <li *ngFor="let critter of getAnimals()" >
+        {{ critter.id }}
+        <br>
+        {{ critter.sn }}
+        <br>
+        <div *ngFor="let cmn of critter.cn" >
+          {{ cmn }}
+        </div>
+    </li>
+
+</p>
