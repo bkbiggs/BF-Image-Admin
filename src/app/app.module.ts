@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { ImagesComponent } from './images/images.component';
 import { AnimalsComponent } from './animals/animals.component';
 import { AnimalImageComponent } from './animal-image/animal-image.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ImagesComponent,
     AnimalsComponent,
-    AnimalImageComponent
+    AnimalImageComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

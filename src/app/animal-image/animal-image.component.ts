@@ -32,4 +32,5 @@ export class AnimalImageComponent implements OnInit {
   getAnimalImage() {
     return this.animalImage;
   }
+
 }
